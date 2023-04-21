@@ -31,7 +31,8 @@ Algoritmo calcular_dia_con_if
 			FinSi
 		FinSi
 	FinSi
-	Si dia_semana>=1 Y dia_semana<=7 Entonces
+	
+	Si dia_semana>= 1 Y dia_semana <= 7 Entonces
 		Escribir 'El dia de la semana correspondiente al número ',dia_semana,' es: ',nombre_dia
 	SiNo
 		Escribir 'Error: El número ingresado no está en el rango válido de 1 a 7'
