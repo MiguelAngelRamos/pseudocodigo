@@ -1,5 +1,4 @@
 Algoritmo CalificacionMasAlta
-	
 	Definir numEstudiantes Como Entero
 	// Solicitar al usuario el numero de estudiantes
 	Escribir "Ingrese el número de estudiantes:"
@@ -20,7 +19,6 @@ Algoritmo CalificacionMasAlta
 	
 	maxCalificacion = calificaciones[1]
 	maxIndex = 1
-	
 	// Buscamos la calificación mas alta
 	Para i = 2 Hasta numEstudiantes Hacer
 		Si calificaciones[i] > maxCalificacion Entonces
@@ -28,7 +26,7 @@ Algoritmo CalificacionMasAlta
 			maxIndex = i
 		FinSi
 	FinPara
-	
 	// Imprimir el nombre del estudiante con calificacion mas alta
 	Escribir "El estudiante con la calificación mas alta es: ", nombres[maxIndex], " con una calificación de ", maxCalificacion
+	// VAMOS AL MINI BREACK DE 5 MIN
 FinAlgoritmo
