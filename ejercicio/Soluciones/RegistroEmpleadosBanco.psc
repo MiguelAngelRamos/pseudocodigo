@@ -30,19 +30,19 @@ Algoritmo RegistroEmpleadosBanco
 		Escribir "Ingrese la fecha de nacimiento del empleado ", i, " (formato dd/mm/yyyy):"
 		Leer fechaNacimiento[i]
 		
-		Escribir "Ingrese el número de identificación del empleado ", i, ":"
+		Escribir "Ingrese el nï¿½mero de identificaciï¿½n del empleado ", i, ":"
 		Leer numIdentificacion[i]
 		
 		// si If
 		Si tipo[i] = "desarrollador" Entonces
-			Escribir "Ingrese el lenguaje de programación principal del desarrollador:"
+			Escribir "Ingrese el lenguaje de programaciï¿½n principal del desarrollador:"
 			Leer lenguajeProgramacion[i]
-			Escribir "Ingrese los años de experiencia del desarrollador:"
+			Escribir "Ingrese los aï¿½os de experiencia del desarrollador:"
 			Leer aniosExperiencia[i]
 		SiNo
-			Escribir "Ingrese el nivel soporte técnico (1, 2 o 3):"
+			Escribir "Ingrese el nivel soporte tï¿½cnico (1, 2 o 3):"
 			Leer nivelSoporte[i]
-			Escribir "Ingrese el area de especialización del soporte:"
+			Escribir "Ingrese el area de especializaciï¿½n del soporte:"
 			Leer areaEspecializacion[i]
 		FinSi
 	FinPara
@@ -56,14 +56,14 @@ Algoritmo RegistroEmpleadosBanco
 		Escribir " Tipo: ", tipo[i]
 		Escribir " Nombre: ", nombre[i]
 		Escribir " Fecha de nacimiento: ", fechaNacimiento[i]
-		Escribir " Número de identificación: ", numIdentificacion[i]
+		Escribir " Nï¿½mero de identificaciï¿½n: ", numIdentificacion[i]
 		
 		Si tipo[i] = "desarrollador" Entonces
-			Escribir " Lenguaje de programación principal: ", lenguajeProgramacion[i]
-			Escribir " Años de experiencia: ", aniosExperiencia[i]
+			Escribir " Lenguaje de programaciï¿½n principal: ", lenguajeProgramacion[i]
+			Escribir " Aï¿½os de experiencia: ", aniosExperiencia[i]
 		Sino
 			Escribir " Nivel de soporte: ", nivelSoporte[i]
-			Escribir " Área de especialización: ", areaEspecializacion[i]
+			Escribir " ï¿½rea de especializaciï¿½n: ", areaEspecializacion[i]
 		FinSi
 	FinPara
 FinAlgoritmo
